@@ -69,24 +69,28 @@
         gl0: game_layer_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "GAME_LAYER_0";
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSFT>,<&tog QWERTY>, <&tog GAMING>;
         };
         gl1: game_layer_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "GAME_LAYER_1";
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp TAB>,<&kp ESC>, <&kp F1>;
         };
         gl2: game_layer_2 {
             compatible = "zmk,behavior-tap-dance";
             label = "GAME_LAYER_2";
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LCTL>,<&kp LSFT>, <&kp LALT>;
         };
         gl3: game_layer_3 {
             compatible = "zmk,behavior-tap-dance";
             label = "GAME_LAYER_3";
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp N1>,<&kp N2>, <&kp N3>;
         };
